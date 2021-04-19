@@ -1,10 +1,358 @@
 <!DOCTYPE html>
-<html lang="s" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Mi blog</title>
-  </head>
-  <body>
-    <h1>victor jose suarez leones</h1>
-  </body>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="stylesheets/estilos.css">
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+	<title>Netflix</title>
+</head>
+<body>
+	<header>
+		<div class="contenedor">
+      <a href="#" class="logotipo"><img src="images/logo.png" alt=""></a>
+			<nav>
+				<a href="#" class="activo">Inicio</a>
+				<a href="#">Programas</a>
+				<a href="#">Películas</a>
+				<a href="#">Más Recientes</a>
+				<a href="#">Mi lista</a>
+        <a href="#" class="btn btn-rounded">Iniciar Sesion</a>
+        <a href="#" class="btn2 btn-rounded">Iniciar Sesion</a>
+			</nav>
+		</div>
+	</header>
+
+	<main>
+		<div class="pelicula-principal">
+			<div class="contenedor">
+				<h3 class="titulo">Interestellar</h3>
+				<p class="descripcion">
+					Narra las aventuras de un grupo de exploradores que hacen uso de un agujero de gusano recientemente descubierto para superar las limitaciones de los viajes espaciales tripulados y vencer las inmensas distancias que tiene un viaje interestelar.
+				</p>
+				<button role="button" class="boton"><i class="fas fa-play"></i>Reproducir</button>
+				<button role="button" class="boton"><i class="fas fa-info-circle"></i>Más información</button>
+			</div>
+		</div>
+
+		<div class="peliculas-recomendadas contenedor">
+			<div class="contenedor-titulo-controles">
+				<h3>Películas Recomendadas</h3>
+				<div class="indicadores"></div>
+			</div>
+
+			<div class="contenedor-principal">
+				<button role="button" id="flecha-izquierda" class="flecha-izquierda"><i class="fas fa-angle-left"></i></button>
+
+				<div class="contenedor-carousel">
+					<div class="carousel">
+						<div class="pelicula">
+							<a href="#"><img src="images/1.png" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="images/2.png" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="images/3.png" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="images/4.png" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="images/5.png" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="images/6.png" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="images/7.png" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="images/1.png" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="images/2.png" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="images/3.png" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="images/1.png" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="images/2.png" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="images/3.png" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="images/4.png" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="images/5.png" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="images/6.png" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="images/7.png" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="images/1.png" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="images/2.png" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="images/3.png" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="images/4.png" alt=""></a>
+						</div>
+					</div>
+				</div>
+
+				<button role="button" id="flecha-derecha" class="flecha-derecha"><i class="fas fa-angle-right"></i></button>
+			</div>
+		</div>
+
+
+<!-- contenedor de dispositivos -->
+  <div class="dispositivos-all contenedor">
+    <div class="contenedor-titulo-dispositivos">
+      <h3 class="titulo-dispositivos">Disponible en todos los Dispositivos</h3>
+    </div>
+    <div class="contenedor-principal-dispositivos">
+      <div class="contenedor-dispositivo">
+        <div class="dispositivos">
+          <div class="dispositivo">
+            <img src="images/tv.png" alt="">
+            <h3 class="title-dispositivo-1">TV</h3>
+            <p class="devises">Amazon Fire TV</p>
+            <p class="devises">Android TV</p>
+            <p class="devises">Apple TV</p>
+            <p class="devises">Chromecast</p>
+            <p class="devises">LG</p>
+            <p class="devises">Roku</p>
+            <p class="devises">Samsung</p>
+          </div>
+          <div class="dispositivo">
+            <img src="images/pc.png" alt="">
+            <h3 class="title-dispositivo-2">Computadoras</h3>
+            <p class="devises">Chrome OS</p>
+            <p class="devises">MacOS</p>
+            <p class="devises">PC Windows</p>
+          </div>
+          <div class="dispositivo">
+            <img src="images/cel.png" alt="">
+            <h3 class="title-dispositivo-3">Celulares y tabletas</h3>
+            <p class="devises">Tabletas Amazon Fire</p>
+            <p class="devises">Celulares y tabletas Android</p>
+            <p class="devises">iPhone & iPad</p>
+          </div>
+          <div class="dispositivo">
+            <img src="images/control.png" alt="">
+            <h3 class="title-dispositivo-4">Consolas</h3>
+            <p class="devises">PS4</p>
+            <p class="devises">PS5</p>
+            <p class="devises">Xbox One</p>
+            <p class="devises">Xbox Series X</p>
+            <p class="devises">Xbox Series S</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+	</main>
+
+  <div class="showcase-content">
+    <h1>See what's next</h1>
+    <p>Watch anywhere. Cancel Anytime</p>
+    <a href="#" class="btn btn-xl">Watch Free For 30 Days <i class="fas fa-chevron-right btn-icon"></i></a>
+  </div>
+</header>
+<section class="tabs">
+  <div class="container">
+    <div id="tab-1" class="tab-item tab-border">
+      <i class="fas fa-door-open fa-3x"></i>
+      <p class="hide-sm">Cancel at any time</p>
+    </div>
+    <div id="tab-2" class="tab-item">
+      <i class="fas fa-tablet-alt fa-3x"></i>
+      <p class="hide-sm">Watch anywhere</p>
+    </div>
+    <div id="tab-3" class="tab-item">
+      <i class="fas fa-tags fa-3x"></i>
+      <p class="hide-sm">Pick your price</p>
+    </div>
+  </div>
+</section>
+
+<section class="tab-content">
+  <div class="container">
+    <!-- Tab Content 1 -->
+    <div id="tab-1-content" class="tab-content-item show">
+      <div class="tab-1-content-inner">
+        <div>
+          <p class="text-lg">
+            If you decide Netflix isn't for you - no problem. No commitment.
+            Cancel online anytime.
+          </p>
+          <a href="#" class="btn btn-lg">Watch Free For 30 Days</a>
+        </div>
+        <img src="https://i.ibb.co/J2xDJV7/tab-content-1.png" alt="" />
+      </div>
+    </div>
+
+    <!-- Tab Content 2 -->
+    <div id="tab-2-content" class="tab-content-item">
+      <div class="tab-2-content-top">
+        <p class="text-lg">
+          Watch TV shows and movies anytime, anywhere — personalized for
+          you.
+        </p>
+        <a href="#" class="btn btn-lg">Watch Free For 30 Days</a>
+      </div>
+      <div class="tab-2-content-bottom">
+        <div>
+          <img src="https://i.ibb.co/DpdN7Gn/tab-content-2-1.png" alt="" />
+          <p class="text-md">
+            Watch on your TV
+          </p>
+          <p class="text-dark">
+            Smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray
+            players and more.
+          </p>
+        </div>
+        <div>
+          <img src="https://i.ibb.co/R3r1SPX/tab-content-2-2.png" alt="" />
+          <p class="text-md">
+            Watch instantly or download for later
+          </p>
+          <p class="text-dark">
+            Available on phone and tablet, wherever you go.
+          </p>
+        </div>
+        <div>
+          <img src="https://i.ibb.co/gDhnwWn/tab-content-2-3.png" alt="" />
+          <p class="text-md">
+            Use any computer
+          </p>
+          <p class="text-dark">
+            Watch right on Netflix.com.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tab Content 3 -->
+    <div id="tab-3-content" class="tab-content-item">
+      <div class="text-center">
+        <p class="text-lg">
+          Choose one plan and watch everything on Netflix.
+        </p>
+        <a href="#" class="btn btn-lg">Watch Free For 30 Days</a>
+      </div>
+
+      <table class="table">
+        <thead>
+          <tr>
+            <th></th>
+            <th>Basic</th>
+            <th>Standard</th>
+            <th>Premium</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Monthly price after free month ends on 6/19/19</td>
+            <td>$8.99</td>
+            <td>$12.99</td>
+            <td>$15.99</td>
+          </tr>
+          <tr>
+            <td>HD Available</td>
+            <td><i class="fas fa-times"></i></td>
+            <td><i class="fas fa-check"></i></td>
+            <td><i class="fas fa-check"></i></td>
+          </tr>
+          <tr>
+            <td>Ultra HD Available</td>
+            <td><i class="fas fa-times"></i></td>
+            <td><i class="fas fa-times"></i></td>
+            <td><i class="fas fa-check"></i></td>
+          </tr>
+          <tr>
+            <td>Screens you can watch on at the same time</td>
+            <td>1</td>
+            <td>2</td>
+            <td>4</td>
+          </tr>
+          <tr>
+            <td>Watch on your laptop, TV, phone and tablet</td>
+            <td><i class="fas fa-check"></i></td>
+            <td><i class="fas fa-check"></i></td>
+            <td><i class="fas fa-check"></i></td>
+          </tr>
+          <tr>
+            <td>Unlimited movies and TV shows</td>
+            <td><i class="fas fa-check"></i></td>
+            <td><i class="fas fa-check"></i></td>
+            <td><i class="fas fa-check"></i></td>
+          </tr>
+          <tr>
+            <td>Cancel anytime</td>
+            <td><i class="fas fa-check"></i></td>
+            <td><i class="fas fa-check"></i></td>
+            <td><i class="fas fa-check"></i></td>
+          </tr>
+          <tr>
+            <td>First month free</td>
+            <td><i class="fas fa-check"></i></td>
+            <td><i class="fas fa-check"></i></td>
+            <td><i class="fas fa-check"></i></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <p>Questions? Call 1-866-579-7172</p>
+  <div class="footer-cols">
+    <ul>
+      <li><a href="#">FAQ</a></li>
+      <li><a href="#">Investor Relations</a></li>
+      <li><a href="#">Ways To Watch</a></li>
+      <li><a href="#">Corporate Information</a></li>
+      <li><a href="#">Netflix Originals</a></li>
+    </ul>
+    <ul>
+      <li><a href="#">Help Center</a></li>
+      <li><a href="#">Jobs</a></li>
+      <li><a href="#">Terms Of Use</a></li>
+      <li><a href="#">Contact Us</a></li>
+    </ul>
+    <ul>
+      <li><a href="#">Account</a></li>
+      <li><a href="#">Redeem Gift Cards</a></li>
+      <li><a href="#">Privacy</a></li>
+      <li><a href="#">Speed Test</a></li>
+    </ul>
+    <ul>
+      <li><a href="#">Media Center</a></li>
+      <li><a href="#">Buy Gift Cards</a></li>
+      <li><a href="#">Cookie Preferences</a></li>
+      <li><a href="#">Legal Notices</a></li>
+    </ul>
+  </div>
+
+</footer>
+
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+	<script src="javascripts/main.js"></script>
+
+</body>
+  <p>Copyright (c) 2018 Copyright Holder All Rights Reserved.</p>Copyright (c) 2018 Copyright Holder All Rights Reserved.
 </html>
